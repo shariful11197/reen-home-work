@@ -1,0 +1,455 @@
+*{
+	padding:  0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+
+/************************************
+		main css xtart
+****************************************/
+
+/****************header section css start*************/
+.header-section{
+	 width: 100%;
+}
+.top-header{
+	width: 100%;
+	padding: 10px 0px;
+	background: #f5f7fa;
+}
+.top-header .info-inner{
+	display: block;
+	margin: 0px;
+
+}
+.top-header .info-inner li{
+	list-style: none;
+	display: inline-block;
+}
+.top-header .info-inner li a{
+	font-weight: 500;
+font-size: 14px;
+color: #506a85;
+margin-right: 15px;
+}
+.top-header .info-inner li a:hover{
+	text-decoration: none;
+	color: #
+}
+.top-header .info-inner li a .fa{
+	margin-right: 7px;
+}
+.top-header .social-icons{
+	text-align: right;
+	display: block;
+	margin: 0px;
+
+}
+.top-header .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.top-header .social-icons li a{
+font-size: 14px;
+color: #506a85;
+margin: 0px 0px 0px 18px;
+}
+
+.header-section .bg-light{
+	padding: 15px 0px;
+	background: #fff !important;
+}
+
+.header-section .navbar-expand-lg .navbar-nav{
+	
+	margin-left: 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #506a85;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: 0px 10px;
+}
+
+.header-section .navbar-light .navbar-nav .active>.nav-link{
+	color: #506a85;
+	font-weight: 400;
+}
+.header-section .navbar-light .navbar-nav .nav-link:focus, .header-section .navbar-light .navbar-nav .nav-link:hover{
+	color: #00bc9c;
+}
+.header-section .right-search .fa{
+	color: #506a85;
+}
+
+/****************header section css end***************/
+
+/********************slider section css start************/
+.slider{
+	width: 100%;
+}
+.slider .carousel-caption{
+	position: absolute;
+	right: 15%;
+	bottom: 30%;
+	left: 15%;
+
+	z-index: 10;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #fff;
+	text-align: center;
+
+}
+.slider .carousel-caption h2{
+font-size: 64px;
+line-height: 74px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 2px;
+}
+.slider .carousel-caption p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.slider .carousel-caption .btn-info{
+	font-size: 14px;
+	text-transform: uppercase;
+	padding:10px 35px;
+	border-radius: 2px;
+	border: 1px solid #00bc9c;
+	background: #00bc9c;
+	font-weight: 600;
+	margin-top: 35px;
+	transition: 1s;
+}
+.slider .carousel-caption .btn-info:focus, .slider .carousel-caption .btn-info:hover{
+	background:transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+
+}
+
+
+
+/*********************slider section css end**************/
+
+
+/*who we are cs start*/
+
+.who-we-are{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-are .titel{
+	width: 100%;
+	text-align: center;
+}
+.who-we-are .titel h2{
+	font-size: 52px;
+line-height: 74px;
+font-weight: 700;
+text-transform: capitalize;
+letter-spacing: 2px;
+color: #506a85;
+margin-bottom: 20px;
+}
+.who-we-are .titel p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+
+.who-we-are .media{
+margin-top: 40px;
+}
+
+.who-we-are .media .media-body{
+	padding: 0px 10px;
+}
+
+.who-we-ar .media .media-body h5{
+font-size: 14px;
+line-height: 28px;
+font-weight: 600;
+color: #506a85;
+}
+.who-we-are .media .media-body p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+
+/******who we are css end*/
+
+/*************port folio section css start********/
+.work{
+
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+
+.work .titel{
+	width: 100%;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.work .titel h2{
+	font-size: 52px;
+line-height: 74px;
+font-weight: 700;
+text-transform: capitalize;
+letter-spacing: 2px;
+color: #506a85;
+margin-bottom: 10px;
+}
+.work .titel p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+.work .card{
+	text-align: center;
+	border-radius: 0px;
+}
+
+.work .card .card-img-top{
+	border-radius: 0px;
+}
+.work .card .card-body .card-title{
+	font-size: 16px;
+	color: #506a85;
+	font-weight: 600;
+	margin-bottom: 5px;
+
+
+}
+
+
+.work .card .card-body .card-text{
+
+
+font-size: 14px;
+	color: #506a85;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+
+.work .owl-carousel{
+	margin-top: 50px;
+}
+.work .owl-theme .owl-dots .owl-dot.active span, .work .owl-theme .owl-dots .owl-dot:hover span{
+	background: #00bc9c;
+}
+
+.work .owl-theme .owl-nav.disabled+.owl-dots {
+    margin-top: 25px;
+}
+/*************port folio section css start********/
+
+
+
+/*************get-in-touch css start*************/
+.get-in-touch{
+
+	width: 100%;
+	padding: 80px 0px;
+	background: #ffffff;
+}
+
+.get-in-touch .titel{
+	width: 100%;
+	padding-bottom: 60px;
+	text-align: center;
+}
+.get-in-touch .titel h2{
+	font-size: 52px;
+line-height: 74px;
+font-weight: 700;
+text-transform: capitalize;
+letter-spacing: 2px;
+color: #506a85;
+margin-bottom: 10px;
+}
+.get-in-touch .titel p{
+	font-size: 16px;
+	line-height: 26px;
+	font-weight: 400;
+	color: #a3b1bf;
+}
+
+
+.get-in-touch .btn-info{
+	font-size: 14px;
+	
+	padding:10px 35px;
+	border-radius: 2px;
+	border: 1px solid #00bc9c;
+	background: #00bc9c;
+	font-weight: 600;
+	margin-top: 20px;
+	transition: 1s;
+}
+
+
+.get-in-touch .btn-info:focus, .get-in-touch .btn-info:hover{
+	background:transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+
+}
+
+/*************get-in-touch css end*************/
+
+
+
+/*******************footer section css start********/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px;
+	background: #2f4052;
+}
+.footer-section .widget{
+	width: 100%;
+}
+
+.footer-section .widget h4{
+	font-size: 18px;
+	line-height: 28px;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.footer-section .widget p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #72808f;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+.footer-section .widget .link{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 700;
+	color: #72808f;
+}
+.footer-section .widget .link:hover{
+	color: #00bc9c;
+	text-decoration: none;
+}
+.footer-section .widget .link .fa{
+	margin-left: 10px;
+}
+.footer-section .widget .no-mar{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.footer-section .widget .card-group{
+	margin-bottom: 10px;
+
+}
+.footer-section .widget .card{
+	border:0px solid rgba(0,0,0,125);
+	border-radius: 0px;
+	margin: 0px 10px;
+}
+.footer-section .widget .card-img-top{
+	border-radius: 0px;
+}
+
+.footer-section .widget .form .mx-sm-3{
+	margin-left: 0px !important;
+}
+
+.footer-section .widget .form .form-control{
+	width: 100%;
+	background: #4a5c6c;
+	border: 1px solid #4e5c6c;
+	border-radius: 2px;
+	font-size: 12px;
+	padding: 18px 4px;
+}
+
+
+.footer-section .widget .form .btn-primary{
+	color: #fff;
+	background-color: #00bc9c;
+	border-color: #00bc9c;
+	position: absolute;
+	right: 12%;
+	bottom: 30%;
+	padding: 5px 12px;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.footer-section .widget .form .btn-primary:hover{
+	background:transparent;
+	color: #00bc9c;
+	border: 1px solid #00bc9c;
+}
+/*******************footer section css end********/
+
+/*footer css main start*/
+
+.footer-section-main{
+	width: 100%;
+	/*padding: 80px 0px;*/
+	background: #283645;
+}
+
+
+.footer-section-main p{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #707e8c;
+	margin-bottom: 10px;
+	margin-top: 30px;
+}
+
+
+.footer-section-main .nav-meno{
+	display: block;
+	margin: 0px;
+	margin-top: 30px;
+
+}
+.footer-section-main .nav-meno li{
+	/*list-style: none;*/
+	display: inline-block;
+}
+.footer-section-main .nav-meno li a{
+	font-weight: 700;
+font-size: 14px;
+color: #556370;
+margin-right: 15px;
+}
+.footer-section-main .nav-meno li a:focus, .footer-section-main .nav-meno li a:hover{
+	text-decoration: none;
+	color: #00bc9c;
+
+/*footer css main end*/
